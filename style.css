@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    }
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    }
+h1, h2, h3, h4 {
+    color: #0056b3;
+    margin-bottom: 10px;
+    }
+        h1 {
+            border-bottom: 2px solid #0056b3;
+            padding-bottom: 5px;
+        }
+        .section {
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: #f9f9f9;
+            border-left: 5px solid #0056b3;
+            border-radius: 5px;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        li {
+            margin-bottom: 5px;
+        }
+        .contact-info a, .resume-link a {
+            color: #0056b3;
+            text-decoration: none;
+        }
+        .contact-info a:hover, .resume-link a:hover {
+            text-decoration: underline;
+        }
+        .project-item {
+            margin-bottom: 15px;
+        }
+        .project-item img {
+            max-width: 70%;
+            height: auto;
+            display: block;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
